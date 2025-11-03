@@ -11,7 +11,7 @@ Welcome to my GitHub profile! I'm passionate about code, precision, and innovati
 `Python` `PHP` `JavaScript` `TypeScript` `C#` `C++`
 
 **Focus Areas**  
-`Full Stack Development` `Machine Learning` `Deep Learning` `Neural Networks` `Intrusion Detection` `Pattern Recognition` `Honey-pot Installation`
+`Full Stack Development` `Machine Learning` `Deep Learning` `Neural Networks` `Intrusion Detection` `Pattern Recognition` `Honey-pot Setup`
 
 **Specialties**  
 - 🔐 Network security & Threat Analysis
