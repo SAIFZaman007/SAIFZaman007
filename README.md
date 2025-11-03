@@ -26,15 +26,14 @@ Welcome to my GitHub profile! I'm passionate about code, precision, and innovati
 <img width="816" height="259" alt="image" src="https://github.com/user-attachments/assets/8a97fcaf-6fd4-401c-b04a-f549d8c8e666" />
 
 ## 💡 Currently Learning:
-
 - Advanced threat detection algorithms
 - Distributed systems security
 - Edge computing for ML models
 - AI Automation
 
 ## 🔍 Researching on: → n8n, TelCo, TowerCo.
-## 📫 Let's Connect
 
+## 📫 Let's Connect
 Building systems that make the digital world safer, one commit at a time.
 
 ---
