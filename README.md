@@ -5,8 +5,6 @@
 </div>
 Welcome to my GitHub profile! I'm passionate about efficient code, precision, and innovation. As a programmer, I'm thrive where cybersecurity, machine learning, and web development converge. I push the limits of what technology can achieve — designing systems that detect threats, learn intelligently from data, and safeguard the digital world. Together, let’s redefine what’s possible.
 
-![Follow](https://img.shields.io/badge/brightgreen?style=flat-square) ![Send Mail](https://img.shields.io/badge/brightgreen?style=flat-square)
-
 ## 🛠️ Tech Arsenal
 
 **Languages:**  `Python` `PHP` `JavaScript` `TypeScript` `C#` `C++`
