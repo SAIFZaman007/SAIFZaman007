@@ -1,4 +1,14 @@
 # Hi there 👋 I'm Saif
+
+<div align="center">
+Show Image
+Show Image
+</div>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;ML+%26+Security+Enthusiast;Cyber+Threat+Hunter;Building+Intelligent+Systems" alt="Typing SVG" />
+</div>
+Welcome to my GitHub profile! I code with passion, precision, and a relentless drive to innovate. As a developer who thrives at the intersection of cybersecurity and machine learning, I'm constantly pushing the boundaries of what's possible—building systems that detect threats, learn from data, and protect the digital world. Let's build something extraordinary together!
+
 ## 🛠️ Tech Arsenal
 
 **Languages**  
