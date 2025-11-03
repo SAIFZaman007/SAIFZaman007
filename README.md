@@ -32,7 +32,15 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 ## 📈 GitHub Activity
 ![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
 
-<img width="816" height="259" alt="image" src="https://github.com/user-attachments/assets/8a97fcaf-6fd4-401c-b04a-f549d8c8e666" />
+SAIFZaman007's GitHub Stats
+⭐ Total Stars Earned: 9771
+📊 Total Contributions: 9771
+🔥 Longest Streak: 08 days
+💻 Total Commits (last year): 57
+Show Image
+</div>
+
+...
 
 ## 💡 Currently Learning:
 - Advanced threat detection algorithms
