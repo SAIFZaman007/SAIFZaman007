@@ -1,11 +1,5 @@
 # Hi there 👋 I'm Spark
 
-## 🔭 What I'm Working On
-
-- **499-CTHTS**: Cyber threat hunting system utilizing IDS, NS, DL, TPOT & NN to detect DDoS attacks, Trojan Horses, Brute Forces, and malware
-- **ML Models**: Traffic sign detection, AI-powered poker systems, and intelligent radar processing
-- **Web Development**: MediLift - Ambulance booking service with creative UX/UI
-
 ## 🛠️ Tech Arsenal
 
 **Languages**  
