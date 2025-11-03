@@ -33,8 +33,7 @@ Welcome to my GitHub profile! I'm passionate about code, precision, and innovati
 
 ## 🔍 Researching on: → n8n, TelCo, TowerCo.
 
-## 📫 Let's Connect
-Building systems that make the digital world safer, one commit at a time.
+*📫 Let's Connect & build systems that make the digital world safer, one commit at a time.*
 
 ---
 
