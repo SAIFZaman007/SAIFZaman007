@@ -19,14 +19,11 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 **Security Tools & OS:** `Kali Linux` `Ubuntu` `VirtualBox` `Wireshark` `Suricata` `TPot` `Snort`
 
-**Focus Areas**  
-`Full Stack Development` `Machine Learning` `Deep Learning` `Neural Networks` `Intrusion Detection` `Pattern Recognition` `Honey-pot Setup`
-
-**Specialties**  
+**Focus Areas(Specialties)**  
 - 🔐 Network security & Threat Analysis
 - 🧠 AI, ML, DL & NN Architecture
 - 📊 Data Processing & Visualization
-- 🎯 Real-time Anomaly Detection
+- 🎯 Real-time Anomaly Detection(Intrusion)
 - 💻 Full Stack Development
 
 ## 📈 GitHub Activity
