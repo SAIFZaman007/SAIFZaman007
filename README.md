@@ -8,10 +8,15 @@ Welcome to my GitHub profile! I'm passionate about code, precision, and innovati
 ## 🛠️ Tech Arsenal
 
 **Languages:**  `Python` `PHP` `JavaScript` `TypeScript` `C#` `C++`
+
 **Frontend:** `Vite` `React`
+
 **Backend:** `Node` `Django` `Rest API`
+
 **Database:** `PostgreSQL` `mySQL` `MongoDB`
+
 **ML Tools & Libraries:** `TensorFlow` `PyTorch` `Pandas` `Sickit-learn` `OpenCV` `Seaborn` `Matplotlib` 
+
 **Security Tools & OS:** `Kali Linux` `Ubuntu` `VirtualBox` `Wireshark` `Suricata` `TPot` `Snort`
 
 **Focus Areas**  
