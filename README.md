@@ -11,25 +11,28 @@ Welcome to my GitHub profile! I'm passionate about code, precision, and innovati
 `Python` `PHP` `JavaScript` `TypeScript` `C#` `C++`
 
 **Focus Areas**  
-`Machine Learning` `Deep Learning` `Neural Networks` `Intrusion Detection` `Pattern Recognition` `Full Stack Development`
+`Full Stack Development` `Machine Learning` `Deep Learning` `Neural Networks` `Intrusion Detection` `Pattern Recognition` `Honey-pot Installation`
 
 **Specialties**  
-- 🔐 Cybersecurity & Threat Analysis
-- 🧠 Neural Network Architecture
+- 🔐 Network security & Threat Analysis
+- 🧠 AI, ML, DL & NN Architecture
 - 📊 Data Processing & Visualization
 - 🎯 Real-time Anomaly Detection
+- 💻 Full Stack Development
 
 ## 📈 GitHub Activity
 ![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
 
 <img width="816" height="259" alt="image" src="https://github.com/user-attachments/assets/8a97fcaf-6fd4-401c-b04a-f549d8c8e666" />
 
-## 🌱 Currently Learning
+## 💡 Currently Learning:
 
 - Advanced threat detection algorithms
 - Distributed systems security
 - Edge computing for ML models
+- AI Automation
 
+## 🔍 Researching on: → n8n, TelCo, TowerCo.
 ## 📫 Let's Connect
 
 Building systems that make the digital world safer, one commit at a time.
