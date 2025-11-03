@@ -1,21 +1,5 @@
 # Hi there 👋 I'm Spark
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Spark"
-        self.role = "Full Stack Dev | ML Enthusiast | Security Researcher"
-        self.location = "Dhaka, Bangladesh"
-        self.interests = ["Cybersecurity", "Deep Learning", "Threat Detection"]
-        
-    def current_focus(self):
-        return {
-            "🛡️ Security": "Building cyber threat hunting systems",
-            "🤖 ML/AI": "Training models for anomaly detection",
-            "🚀 Innovation": "Creating smart solutions for real-world problems"
-        }
-```
-
 ## 🔭 What I'm Working On
 
 - **499-CTHTS**: Cyber threat hunting system utilizing IDS, NS, DL, TPOT & NN to detect DDoS attacks, Trojan Horses, Brute Forces, and malware
