@@ -16,7 +16,7 @@
 ## 📈 GitHub Activity
 
 ![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
-
+<img width="816" height="259" alt="image" src="https://github.com/user-attachments/assets/8a97fcaf-6fd4-401c-b04a-f549d8c8e666" />
 
 ## 🌱 Currently Learning
 
