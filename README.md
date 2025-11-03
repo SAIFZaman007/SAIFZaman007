@@ -19,17 +19,18 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 **Security Tools & OS:** `Kali Linux` `Ubuntu` `VirtualBox` `Wireshark` `Suricata` `TPot` `Snort`
 
-**Focus Areas(Specialties)**  
+## 🎯Focus Areas(Specialties)  
 - 🔐 Network security & Threat Analysis
 - 🧠 AI, ML, DL & NN Architecture
 - 📊 Data Processing & Visualization
-- 🎯 Real-time Anomaly Detection(Intrusion)
+- ⏳ Real-time Anomaly Detection(Intrusion)
 - 💻 Full Stack Development
 
 ## 📈 GitHub Activity
 ![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
 
 [![Spark's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true)]((https://github.com/SAIFZaman007))
+
 ## 💡 Currently Learning:
 - Advanced threat detection algorithms
 - Distributed systems security
