@@ -16,7 +16,7 @@
 ## 📈 GitHub Activity
 
 ![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
-(https://claude.ai/public/artifacts/0dadc1a0-e850-4100-970c-58ea15ef7139)
+
 
 ## 🌱 Currently Learning
 
