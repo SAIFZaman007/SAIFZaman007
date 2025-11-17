@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- ========== HEADER FLAME (STYLE 3 — CYBER NEON) ========== -->
-<img src="assets/header_flame.gif" width="100%" />
-
 # 👋 Hi, I'm <span style="color:#00C8FF;">Saif</span>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=00F7FF&center=true&vCenter=true&width=520&lines=Full+Stack+Developer;ML+%26+Network+Security+Enthusiast;Cyber+Threat+Hunter;Builder+of+Intelligent+Systems" />
@@ -52,6 +49,7 @@ My work lives where **cybersecurity**, **machine learning**, and **advanced soft
 <!-- Most stable stats API, auto-refresh every 30 min -->
 [![Spark's GitHub Stats](https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true&cache_seconds=1800)](https://github.com/SAIFZaman007)
 
+
 ---
 
 ## 💡 Currently Leveling Up In
@@ -79,7 +77,9 @@ My work lives where **cybersecurity**, **machine learning**, and **advanced soft
 
 ---
 
-<!-- ========== FOOTER FLAME (STYLE 1 — SUBTLE SLOW FIRE) ========== -->
+---
+
+<!-- Footer: Subtle slow-moving blue flame (Style 01) -->
 <div align="center">
-  <img src="assets/footer_flame.gif" width="100%" />
+  <img src="assets/footer_flame.gif" alt="Subtle blue flame footer" width="100%" />
 </div>
