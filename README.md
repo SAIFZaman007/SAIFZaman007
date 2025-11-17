@@ -1,4 +1,6 @@
-*# Hi there 👋 I'm Saif*
+<div align="center">
+# Hi there 👋 I'm Saif
+</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;ML+%26+Network+Security+Enthusiast;Cyber+Threat+Hunter;Building+Intelligent+Systems" alt="Typing SVG" />
@@ -34,9 +36,17 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 - Distributed systems security
 - Edge computing for ML models
 - AI Automation
-- 
-## 🔍 Researching on: → n8n, TelCo, TowerCo.
+  
+## 🔍 Researching on
 
-*📫 Let's Connect & build systems that make the digital world safer; one commit at a time...*
+→ n8n, TelCo, TowerCo
+
 ---
+
+<div align="center">
+  
+*📫 Let's Connect & build systems that make the digital world safer; one commit at a time...*
+
 **"Code — that protects, learns, and evolves."**
+
+</div>
