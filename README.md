@@ -1,14 +1,17 @@
 <div align="center">
 
-# 👋 Hi there, I'm **Saif**
+<!-- ========== HEADER FLAME (STYLE 3 — CYBER NEON) ========== -->
+<img src="assets/header_flame.gif" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;ML+%26+Network+Security+Enthusiast;Cyber+Threat+Hunter;Builder+of+Intelligent+Systems" />
+# 👋 Hi, I'm <span style="color:#00C8FF;">Saif</span>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=00F7FF&center=true&vCenter=true&width=520&lines=Full+Stack+Developer;ML+%26+Network+Security+Enthusiast;Cyber+Threat+Hunter;Builder+of+Intelligent+Systems" />
 
 </div>
 
-Welcome to my GitHub!  
-I'm passionate about **efficiency, precision, and innovation**.  
-I thrive where **cybersecurity**, **machine learning**, and **web development** converge — building systems that detect threats, learn intelligently, and secure the digital world.
+Welcome to my digital space.  
+I build systems that **detect threats**, **learn intelligently**, and **secure the modern web**.  
+My work lives where **cybersecurity**, **machine learning**, and **advanced software engineering** collide.
 
 ---
 
@@ -18,7 +21,7 @@ I thrive where **cybersecurity**, **machine learning**, and **web development** 
 `Python` `PHP` `JavaScript` `TypeScript` `C#` `C++`
 
 **Frontend:**  
-`Vite` `React`
+`React` `Vite`
 
 **Backend:**  
 `Node.js` `Django` `REST API`
@@ -26,36 +29,37 @@ I thrive where **cybersecurity**, **machine learning**, and **web development** 
 **Databases:**  
 `PostgreSQL` `MySQL` `MongoDB`
 
-**ML Tools & Libraries:**  
-`TensorFlow` `PyTorch` `Pandas` `Scikit-learn` `OpenCV` `Seaborn` `Matplotlib`
+**ML & Data Tools:**  
+`TensorFlow` `PyTorch` `Pandas` `scikit-learn` `OpenCV` `Seaborn` `Matplotlib`
 
-**Security Tools & OS:**  
-`Kali Linux` `Ubuntu` `VirtualBox` `Wireshark` `Suricata` `TPot` `Snort`
+**Security & Systems:**  
+`Kali Linux` `Ubuntu` `Wireshark` `Suricata` `Snort` `TPot` `VirtualBox`
 
 ---
 
-## 🎯 Focus Areas (Specialties)
+## 🎯 Specialties
 
 - 🔐 Network Security & Threat Analysis  
-- 🧠 AI, ML, DL & Neural Network Architecture  
-- 📊 Data Processing & Visualization  
-- ⏳ Real-time Intrusion & Anomaly Detection  
-- 💻 Full Stack Development  
+- 🧠 Deep Learning, NN Architectures & ML Pipelines  
+- 📊 Data Processing & Advanced Visualization  
+- ⚡ Real-Time Intrusion & Anomaly Detection  
+- 💻 Full Stack Software Engineering  
 
 ---
 
 ## 📈 GitHub Activity
 
-[![Spark's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true&cache_seconds=1800)](https://github.com/SAIFZaman007)
+<!-- Most stable stats API, auto-refresh every 30 min -->
+[![Spark's GitHub Stats](https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true&cache_seconds=1800)](https://github.com/SAIFZaman007)
 
 ---
 
-## 💡 Currently Learning
+## 💡 Currently Leveling Up In
 
-- Advanced threat detection algorithms  
-- Distributed systems security  
-- Edge computing for ML deployment  
-- AI-driven Automation  
+- Advanced cyber threat detection algorithms  
+- Secure distributed systems engineering  
+- Edge & fog computing for ML  
+- Autonomous AI-driven workflows  
 
 ---
 
@@ -67,15 +71,15 @@ I thrive where **cybersecurity**, **machine learning**, and **web development** 
 
 <div align="center">
 
-### 📫 Let's connect & build systems that make the digital world safer — one commit at a time.
+### ✉️ Let’s build systems that **protect**, **learn**, and **evolve**.
 
-**"Code that protects, learns, and evolves."**
+**“In a world full of vulnerabilities, code is the strongest defense.”**
 
 </div>
 
 ---
 
+<!-- ========== FOOTER FLAME (STYLE 1 — SUBTLE SLOW FIRE) ========== -->
 <div align="center">
-  <img src="https://i.gifer.com/7VE.gif" width="100%" />
+  <img src="assets/footer_flame.gif" width="100%" />
 </div>
-
