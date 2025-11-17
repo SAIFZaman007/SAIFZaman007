@@ -1,5 +1,7 @@
 <div align="center">
+    
 ## Hi there 👋 I'm Saif
+
 </div>
 
 <div align="center">
@@ -27,17 +29,8 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
   
 ## 📈 GitHub Activity
 
-<p align="center">
-    <a href="https://github.com/SAIFZaman007">
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=SAIFZaman007&theme=dark&hide_border=false" alt="GitHub Streak" />
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/SAIFZaman007">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAIFZaman007&layout=compact&theme=dark&hide_border=false&langs_count=6" alt="Top Languages" />
-    </a>
-</p>
+![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
+[![Spark's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true)]((https://github.com/SAIFZaman007))
 
 ## 💡 Currently Learning:
 
@@ -57,7 +50,5 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 *📫 Let's Connect & build systems that make the digital world safer; one commit at a time...*
 
 **"Code — that protects, learns, and evolves."**
-
-<img src="https://i.imgur.com/Kx0X52E.gif" width="120" height="120"/>
 
 </div>
