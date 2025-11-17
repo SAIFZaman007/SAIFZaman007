@@ -32,15 +32,11 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 <div align="center">
   
-[![GitHub Streak](https://streak-stats.demolab.com/?user=SAIFZaman007&theme=highcontrast&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&fire=00F7FF&ring=00F7FF&currStreakLabel=00F7FF)](https://github.com/SAIFZaman007)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=SAIFZaman007&theme=dark&hide_border=true)
 
-[![Saif's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff)](https://github.com/SAIFZaman007)
+[![Saif's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true)](https://github.com/SAIFZaman007)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SAIFZaman007&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=ffffff)](https://github.com/SAIFZaman007)
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAIFZaman007&bg_color=0d1117&color=00F7FF&line=00F7FF&point=ffffff&area=true&hide_border=true)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=🔥%20IGNITING%20THE%20CODE%20🔥&fontSize=20&fontColor=00F7FF&animation=twinkling" width="100%"/>
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=SAIFZaman007&theme=react-dark&hide_border=true&area=true)
 
 </div>
 
