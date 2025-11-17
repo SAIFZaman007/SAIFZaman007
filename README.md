@@ -62,9 +62,6 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 **"Code — that protects, learns, and evolves."**
 
-<br><br>
-
-<img src="https://github.com/SAIFZaman007/SAIFZaman007/footer_flame.gif" width="350"/>
 ![Profile Views](https://komarev.com/ghpvc/?username=MarufPulok&color=58A6FF&style=flat-square)
 
 </div>
