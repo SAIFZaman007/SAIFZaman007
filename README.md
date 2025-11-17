@@ -29,8 +29,13 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
   
 ## 📈 GitHub Activity
 
-![Contributions](https://img.shields.io/badge/2025_Contributions-57-brightgreen?style=flat-square)
-[![Spark's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true)]((https://github.com/SAIFZaman007))
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SAIFZaman007&show_icons=true&theme=dark&include_all_commits=true&count_private=true&disable_cache=true" alt="SAIFZaman007's GitHub Stats" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.demolab.com?user=SAIFZaman007&theme=dark" alt="GitHub Streak" />
+</p>
+
 
 ## 💡 Currently Learning:
 
@@ -51,4 +56,8 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 **"Code — that protects, learns, and evolves."**
 
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/halfrost/halfrost/master/src/fire.gif" alt="Burning Blue Flame Animation" width="100"/>
 </div>
