@@ -55,8 +55,8 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 <div align="center">
   
-*📫 Let's Connect & build systems that make the digital world safer, one commit at a time.*
+*📫 Let's Connect & build systems that make the digital world safer; one commit at a time...*
 
-**"Code that protects, learns, and evolves"**
+**"Code — that protects, learns, and evolves."**
 
 </div>
