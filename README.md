@@ -14,16 +14,16 @@ Welcome to my GitHub profile! I'm passionate about efficient code, precision, an
 
 ## 🛠️ Tech Arsenal
 
-**Languages:** `Python` `PHP` `JavaScript` `TypeScript` `C#` `C++`  
+**Languages:** `Python` `JavaScript` `TypeScript`  
 **Frontend:** `Vite` `React`  
-**Backend:** `Node` `Django` `Rest API`  
+**Backend:** `FastAPI` `Node`   
 **Database:** `PostgreSQL` `mySQL` `MongoDB`  
 **ML Tools & Libraries:** `TensorFlow` `PyTorch` `Pandas` `Sickit-learn` `OpenCV` `Seaborn` `Matplotlib`  
 **Security Tools & OS:** `Kali Linux` `Ubuntu` `VirtualBox` `Wireshark` `Suricata` `TPot` `Snort`
 
 ---
 
-## 🎯 Focus Areas (Specialties)
+##  Focus Areas (Specialties)
 
 - 🔐 Network security & Threat Analysis  
 - 🧠 AI, ML, DL & NN Architecture  
