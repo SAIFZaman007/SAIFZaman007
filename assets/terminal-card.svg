@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 934 504" xmlns="http://www.w3.org/2000/svg"
-     role="img" aria-label="Animated terminal card: whoami returns Saif">
-  <title>saif@maktech:~$ whoami</title>
+<svg viewBox="0 0 991 567" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Animated terminal card: whoami returns Saif Zaman">
+  <title>saif@devmonk:~$ whoami</title>
   <style>
     <![CDATA[
       svg {
         --bg: #0d1117; --panel: #161b22; --border: #30363d;
         --text: #c9d1d9; --dim: #6e7681; --prompt: #3fb950; --accent: #00f7ff;
+        --neon-pink: #ff007f;
       }
       @media (prefers-color-scheme: light) {
         svg {
           --bg: #ffffff; --panel: #f6f8fa; --border: #d0d7de;
           --text: #24292f; --dim: #57606a; --prompt: #1a7f37; --accent: #0969da;
+          --neon-pink: #cf222e;
         }
       }
 
@@ -27,18 +29,19 @@
         white-space: pre;
       }
 
-      .ascii       { font-size: 12px; fill: var(--text); }
-      .ascii-dark  { display: block; }
-      .ascii-light { display: none; }
-      @media (prefers-color-scheme: light) {
-        .ascii-dark  { display: none; }
-        .ascii-light { display: block; }
-      }
+      /* The portrait is intentionally NOT theme-adaptive: it sits on
+         its own true-black plate with cyan ink in both light and dark
+         mode, like a phosphor CRT. Only the card chrome adapts. */
+      .ascii     { font-size: 7px; fill: #00f7ff; }
+      .art-plate { fill: #000000; }
+      .frame     { stroke: #00f7ff; stroke-opacity: 0.45; }
 
       .host     { fill: var(--dim); font-size: 14px; }
       .cmd      { fill: var(--accent); font-size: 14px; }
       .out      { fill: var(--prompt); font-size: 18px; font-weight: 600; }
-      .kv-label { fill: var(--dim); font-size: 13px; }
+      .kv-label { fill: var(--neon-pink); font-size: 13px; font-weight: 600; }
+      .sys-deco { fill: var(--dim); font-size: 11px; letter-spacing: 1px; }
+      .ts       { fill: var(--dim); font-size: 11px; opacity: 0.85; }
       .kv-value { fill: var(--text); font-size: 13px; }
       .cursor   { fill: var(--accent); }
 
@@ -67,95 +70,108 @@
     ]]>
   </style>
 
-  <rect class="card-bg" x="0.5" y="0.5" width="933" height="503" rx="10"/>
-  <path class="chrome" d="M0.5,10.5 a9.5,9.5 0 0 1 9.5,-10 h914 a9.5,9.5 0 0 1 9.5,10 v30 h-933 z"/>
-  <line class="hairline" x1="0" y1="40" x2="934" y2="40"/>
+  <rect class="card-bg" x="0.5" y="0.5" width="990" height="566" rx="10"/>
+  <path class="chrome" d="M0.5,10.5 a9.5,9.5 0 0 1 9.5,-10 h971 a9.5,9.5 0 0 1 9.5,10 v30 h-990 z"/>
+  <line class="hairline" x1="0" y1="40" x2="991" y2="40"/>
   <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
   <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
   <circle cx="62" cy="20" r="6" fill="#27c93f"/>
-  <text class="tab" x="467" y="24" text-anchor="middle">saif@maktech:~$</text>
+  <text class="tab" x="496" y="24" text-anchor="middle">saif@devmonk:~$</text>
 
-  <rect class="frame" x="30.0" y="70.0" width="364.4" height="403.6" rx="6"/>
+  <rect class="art-plate" x="30.0" y="70.0" width="421.2" height="466.9" rx="6"/>
+  <rect class="frame" x="30.0" y="70.0" width="421.2" height="466.9" rx="6"/>
   <g class="art-group">
-      <text x="42.0" y="94.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@@@%%***+***##%@@@@%%%%@%@@%@@@%%%%@%%%%%%%%%%</text>
-      <text x="42.0" y="108.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@%%@@#+**++**#@@@@@@%%%@@%@@@%%%%%%%%%%%%%%%%#</text>
-      <text x="42.0" y="123.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%@@#*#*++***@@@@@%%%%%%%@%%%%%%%%%%%#%%%%%%%</text>
-      <text x="42.0" y="137.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@%%@@#*##=*#**@@@@%%%%%%%@@@%%%%%%%%%%#%@%%#%@</text>
-      <text x="42.0" y="152.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@%%@@#*##=+#**%@%%%@%%@@@@%###%@@@%%%%#%%%%%@@</text>
-      <text x="42.0" y="167.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%**#++###%@@@@@@%#+-:....:=%%%%%%%%%%%@@@</text>
-      <text x="42.0" y="181.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%*##++*##%@%%%%=:.         .%@%%%#%%@@@@@</text>
-      <text x="42.0" y="196.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%*##++#*#%@%@#    .-=---:   +@%%%%@@@@@@%</text>
-      <text x="42.0" y="210.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%#%@%**#*=#**%@@@:  .+#%@@@%%#=.#@%%%@@@@@%%%</text>
-      <text x="42.0" y="225.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%**##=#**%@@#  .*%#%%@%%%%%*:#%@@%@@@@%%#</text>
-      <text x="42.0" y="240.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%**#*+*##%@@# .+#+=-:+##*=++.%@@%%@%@@%%#</text>
-      <text x="42.0" y="254.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%#%@**#*=###%@@%.:##+---=%*..:-+@%%%@@@@%%##</text>
-      <text x="42.0" y="269.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%****+*##%@#*+=#%%%%#%@#++==%@%%@@@@%###%</text>
-      <text x="42.0" y="283.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%#*+*+***%@%*+**##%%#-+=#%%**%%@@%%%###%@</text>
-      <text x="42.0" y="298.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%*++*+***%@@%#***#=-=-:.-**+*@@@@%%%%#%@@</text>
-      <text x="42.0" y="313.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%*+=+*+*+%@@%%*+***##+=+=-=*@@@%%%%%##@@%</text>
-      <text x="42.0" y="327.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%#*==++*+#@%%%%===-*#*+**=#@%%%##%%%#%%%%</text>
-      <text x="42.0" y="342.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%#+++*+++%@@@@%*+=:. ...-%@%%%%%@@%%%@@%*</text>
-      <text x="42.0" y="356.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">#%%%%*==++*++=+***%****++=--=+#**#**########*+</text>
-      <text x="42.0" y="371.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">+=+***---====-:-+%@**#***++++=*+=---=====-==++</text>
-      <text x="42.0" y="386.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">=--:::---:=+*##%@@@@********+:#@+---==---===--</text>
-      <text x="42.0" y="400.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">::-=++*%%@@@@@@@%%@@%*******=-%@%%#*=-::-----=</text>
-      <text x="42.0" y="415.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">:.+@@@@@@@@@@%%@%%@##%******+#*%%%%@@%#*+-::-:</text>
-      <text x="42.0" y="429.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">:.%@%@%@@@@@%%%%%%%%%%#*####%%*%%%%%%@@@@@%=::</text>
-      <text x="42.0" y="444.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">=+@%%%%%%%%@%@@%%%@@@@@@##%%@%#%%%@%%@%%%%@#=+</text>
-      <text x="42.0" y="459.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">.*@%%%%%%%%%%%@%@%@@@@@@%#%%#%%%%%%%%%%%%%%#+-</text>
-      <text x="42.0" y="94.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">   ..---=---::.    .... .  .   .... ..........</text>
-      <text x="42.0" y="108.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light"> ..  :=--==--:      ...  .   ................:</text>
-      <text x="42.0" y="123.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">...  :-:-==---     ....... ...........:.......</text>
-      <text x="42.0" y="137.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light"> ..  :-::+-:--    .......   ..........:. ..:. </text>
-      <text x="42.0" y="152.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light"> ..  :-::+=:--. ... ..    .:::.   ....:.....  </text>
-      <text x="42.0" y="167.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .--:==:::.      .:=*#%%%%#+...........   </text>
-      <text x="42.0" y="181.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .-::==-::. ....+#%@@@@@@@@@%. ...:..     </text>
-      <text x="42.0" y="196.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......-::==:-:. . :@@@@%*+***#@@@= ....      .</text>
-      <text x="42.0" y="210.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">..:. .--:-+:--.   #@@%=:.   ..:+%: ...     ...</text>
-      <text x="42.0" y="225.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .--::+:--.  :@@%-.:.. .....-#:.  .    ..:</text>
-      <text x="42.0" y="240.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .--:-=-::.  :@%=:=+*#=::-+==%.  .. .  ..:</text>
-      <text x="42.0" y="254.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">...:. --:-+:::.  .%#::=***+.-%%#*= ...    ..::</text>
-      <text x="42.0" y="269.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......----=-::. :-=+:....:. :==++. ..    .:::.</text>
-      <text x="42.0" y="283.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......:-=-=---. .-=--::..:*=+:..--..  ...:::. </text>
-      <text x="42.0" y="298.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......-==-=---.  .:---:+*+*#%*--=-    ....:.  </text>
-      <text x="42.0" y="313.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......-=+=-=-=.  ..-=---::=+=+*+-   .....::  .</text>
-      <text x="42.0" y="327.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......:-++==-=: ....+++*-:-=--+: ...::...:....</text>
-      <text x="42.0" y="342.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......:===-===.    .-=+#%@%%%*. .....  ...  .-</text>
-      <text x="42.0" y="356.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">:....-++==-==+=---.----==+**+=:--:--::::::::-=</text>
-      <text x="42.0" y="371.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">=+=---***++++*#*=. --:---====+-=+***+++++*++==</text>
-      <text x="42.0" y="386.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">+**###***#+=-::.    --------=#: =***++***+++**</text>
-      <text x="42.0" y="400.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">##*+==-..       ..  .-------+*. ..:-+*##*****+</text>
-      <text x="42.0" y="415.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">#%=          .. .. ::.------=:-....  .:-=*##*#</text>
-      <text x="42.0" y="429.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">#%. . .     ..........:-::::..-......     .+##</text>
-      <text x="42.0" y="444.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">+= ........ .  ...      ::.. .:... .. .... :+=</text>
-      <text x="42.0" y="459.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">%- ........... . .      .:..:..............:=*</text>
+      <text x="42.0" y="89.0" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                                                                            </text>
+      <text x="42.0" y="97.5" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                                                                            </text>
+      <text x="42.0" y="106.0" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                                                                            </text>
+      <text x="42.0" y="114.5" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                                   x+*+++++*                                </text>
+      <text x="42.0" y="123.1" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                               +~;:.......''':=                             </text>
+      <text x="42.0" y="131.6" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                           *~-:.................=                           </text>
+      <text x="42.0" y="140.1" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                         ='..'...................+                          </text>
+      <text x="42.0" y="148.6" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       ~'..'.....................'                          </text>
+      <text x="42.0" y="157.1" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                      ..........'':''''''.........*                         </text>
+      <text x="42.0" y="165.6" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                     -.......';~=+**+++*++=-:.....#                         </text>
+      <text x="42.0" y="174.2" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                    *.......;=++**xxxx******+=-..+                          </text>
+      <text x="42.0" y="182.7" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                    -.....:-=+++**xxxx*x**+*+++=;=#                         </text>
+      <text x="42.0" y="191.2" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                    '...':~+++**xx#xxxx******+==+''~                        </text>
+      <text x="42.0" y="199.7" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                   x....';=+++=+===+*****xx*x*++=-.;                        </text>
+      <text x="42.0" y="208.2" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                   #...':==+~~-;:'''-=+++++~;-~==-.=                        </text>
+      <text x="42.0" y="216.7" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                    ...'~+==~--;-;::;;=+=~-:''':;;.                         </text>
+      <text x="42.0" y="225.3" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                    ..''~++=-::'':::;~*x+:'':;-;-;;                         </text>
+      <text x="42.0" y="233.8" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                  *+-;::++***+=~~~==+**x*-::'':'-;                          </text>
+      <text x="42.0" y="242.3" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                 =-~=+~-+++**xxxx*x++**x+~==~--;~-                          </text>
+      <text x="42.0" y="250.8" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                 ==*~;=-=++***x*x*++*+***==+++++=+                          </text>
+      <text x="42.0" y="259.3" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                 x++-~+~==++++**+*x=;:~=--=+**+*+~-                         </text>
+      <text x="42.0" y="267.8" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                  +=+++======+++*++~''.'..=*+++==--                         </text>
+      <text x="42.0" y="276.4" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                   ***=~====++-'':;;:;;''.:~===~~==                         </text>
+      <text x="42.0" y="284.9" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       -==+==+-;~-~~=~~--;'.'~~-~=                          </text>
+      <text x="42.0" y="293.4" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       =-=====~+*++=-:;----~;~-~~x                          </text>
+      <text x="42.0" y="301.9" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       *;~~===~++***+;;~====--~                             </text>
+      <text x="42.0" y="310.4" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       x-----;:~=++++*++++=~--                              </text>
+      <text x="42.0" y="318.9" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       x~~--;:...''':-;;:::;=                               </text>
+      <text x="42.0" y="327.5" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                       *~==~---:...........+                                </text>
+      <text x="42.0" y="336.0" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                      x====~~~-~-;::'':';--*                                </text>
+      <text x="42.0" y="344.5" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                    #%-======~~~~-------~--                                 </text>
+      <text x="42.0" y="353.0" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                   xx#=~==+====~~=~~~-~-~~-+                                </text>
+      <text x="42.0" y="361.5" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                                 #*x##%-==+=====~~~~~~~~~~-;x#                              </text>
+      <text x="42.0" y="370.0" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                               #x*xx##%x-===========~=~~=~::xxx                             </text>
+      <text x="42.0" y="378.6" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                        %###xxxxxxx*###@*-==========~=~=~-:.*%*x                            </text>
+      <text x="42.0" y="387.1" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">                 %####xxxxxxxxxxxx*x###%@#~~==+========~~-:'*%x**x##                        </text>
+      <text x="42.0" y="395.6" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">          %####xx#x#xx#xxxxxxxxxxxx*###%x**=~=========~~~-;-%%x**xxxxx##                    </text>
+      <text x="42.0" y="404.1" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">      #xx#x#xx#x#xx#xxxxxx*x##xxx*x*##%*=+xx~==~======~~~--#+*x***x***xxxx##                </text>
+      <text x="42.0" y="412.6" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">     #x#xx#xx#xxxxxxxxxxxxx+=*xx*xx*##+~+**x*=====++=====-xx:~x***x**xxxxxxxxxx##           </text>
+      <text x="42.0" y="421.1" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">     xxxxxxxxxxxxxxxxxxxxxx***x*x*x**+=**+**+==++++++++==xx~~+*****x*xx*xxxxxxxxxxx##       </text>
+      <text x="42.0" y="429.7" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">     **xx*xxxxxxxxxxxxxx*x*xx*xx*x*x*xx*x****++=+*+***++##+++=**x***xx*xxxxxxxxxxxxxxx      </text>
+      <text x="42.0" y="438.2" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">    #***x*x*x**x*xxx*x*x**xx*xxxx*x**x#x*#xx**x*++*+*+*#%x***=***xxx*x***xxxxxxxxxxxx+      </text>
+      <text x="42.0" y="446.7" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">    #x******x*x*x*x*xxxxx*xxxx*x*xx**x##x*x#####+*+**+#x****++x****xxx+*x*x*x*******x+x     </text>
+      <text x="42.0" y="455.2" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">    ***********x*x*xx*x*x**xx*xx*xx**####xxx###%*+*+**x+++****x**x*xx*+xx**x*******x*++     </text>
+      <text x="42.0" y="463.7" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">   x*********x**x*x*xx*x*x*xxxx*xx*x*#####xx####x+++**++**xxx*x***xxx**x*x************+x    </text>
+      <text x="42.0" y="472.2" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">   x********+**x**x**x*xx***xxxxx*xx*x#x###xxx###==+****xxxx**x***x*x+x*x***********+++x    </text>
+      <text x="42.0" y="480.8" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">  #**x**+++*+**x*x*x*xx*x*x**x*xxx*x*x#####xx##x#~+****xxxxxx*x***xx*************+*++++*    </text>
+      <text x="42.0" y="489.3" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">  x*******+**+**********x*x**xxx*xxx*xx#xx###x###***xxxxxxx#xx***xx********+*+**+****+*=#   </text>
+      <text x="42.0" y="497.8" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">  **x*+*+****=+**x*x**x**x***xxxx*x**xx##x#x#####*xxxxxx#x#x*x***xx***********+*=**+++++*   </text>
+      <text x="42.0" y="506.3" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii">  +x*+*******+++***********x**x*xx*x**#x#xxxx#%%x*x#x#xxxxxx****xx*+*******++*+++*++*+*+=   </text>
+      <text x="42.0" y="514.8" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii"> x**********++=+**x*xx****x**+xxxxxxx*##x##x#x#x*xxx*xxxx##x*x**xx******+*+*++++=*++*+**=   </text>
+      <text x="42.0" y="523.3" textLength="397.2" lengthAdjust="spacingAndGlyphs" class="ascii"> x**+*******++=++***x*x*x***x**xxx*x**xx#x#xxxxxxx%x#x#x#xx*x***x*+****+*+*++++=+++++*+*+#  </text>
   </g>
 
   
   <g class="line-cmd">
-    <text class="host" x="434.4" y="88.7">saif@maktech:~$</text>
-    <text class="cmd" x="542.4" y="88.7"> whoami</text>
+    <text class="host" x="491.2" y="88.7">saif@devmonk:~$</text>
+    <text class="cmd" x="605" y="88.7"> whoami?</text>
   </g>
-  <g class="line-out"><text class="out" x="434.4" y="124.7">&gt; Saif</text></g>
-  <line class="divider info-block" x1="434.4" y1="153.7" x2="904.4" y2="153.7"/>
+  <g class="line-out"><text class="out" x="491.2" y="124.7">&gt; Saif Zaman</text></g>
+  <line class="divider info-block" x1="491.2" y1="153.7" x2="961.2" y2="153.7"/>
   
-  <text class="kv-label info-block" x="434.4" y="193.7">role</text>
-  <text class="kv-value info-block" x="526.4" y="193.7">AI-SaaS Team Lead @ Maktech</text>
+  <text class="kv-label info-block" x="491.2" y="193.7">[role]</text>
+  <text class="kv-value info-block" x="603.2" y="193.7">AI-SaaS Engineer @ Maktech</text>
   
-  <text class="kv-label info-block" x="434.4" y="216.7">focus</text>
-  <text class="kv-value info-block" x="526.4" y="216.7">Security · ML · Full-Stack</text>
+  <text class="kv-label info-block" x="491.2" y="216.7">[focus]</text>
+  <text class="kv-value info-block" x="603.2" y="216.7">Full-Stack Dev · MLOps · Network Security</text>
   
-  <text class="kv-label info-block" x="434.4" y="239.7">based</text>
-  <text class="kv-value info-block" x="526.4" y="239.7">Dhaka, Bangladesh</text>
+  <text class="kv-label info-block" x="491.2" y="239.7">[languages]</text>
+  <text class="kv-value info-block" x="603.2" y="239.7">Python · C++ · Java · JS</text>
   
-  <text class="kv-label info-block" x="434.4" y="262.7">uptime</text>
-  <text class="kv-value info-block" x="526.4" y="262.7">shipping since 2025</text>
+  <text class="kv-label info-block" x="491.2" y="262.7">[ai/ml]</text>
+  <text class="kv-value info-block" x="603.2" y="262.7">TensorFlow · PyTorch · OpenCV · YOLO</text>
   
-  <text class="kv-label info-block" x="434.4" y="285.7">reach</text>
-  <text class="kv-value info-block" x="526.4" y="285.7">open to freelance &amp; collab</text>
+  <text class="kv-label info-block" x="491.2" y="285.7">[os]</text>
+  <text class="kv-value info-block" x="603.2" y="285.7">Kali · Ubuntu · Windows</text>
+  
+  <text class="kv-label info-block" x="491.2" y="308.7">[based]</text>
+  <text class="kv-value info-block" x="603.2" y="308.7">Dhaka, Bangladesh</text>
+  
+  <text class="kv-label info-block" x="491.2" y="331.7">[uptime]</text>
+  <text class="kv-value info-block" x="603.2" y="331.7">Shipping since 2022</text>
+  
+  <text class="kv-label info-block" x="491.2" y="354.7">[reach]</text>
+  <text class="kv-value info-block" x="603.2" y="354.7">Open to freelance &amp; collab</text>
+  <line class="divider info-block" x1="491.2" y1="381.7" x2="961.2" y2="381.7"/>
+  <text class="sys-deco info-block" x="491.2" y="414.7">SYS_STATUS: STABLE    SEC_LEVEL: 4    NETWORK: ENCRYPTED</text>
   
   <g class="line-close">
-    <text class="host" x="434.4" y="327.7">saif@maktech:~$</text>
-    <rect class="cursor" x="550.4" y="316.7" width="8" height="14"/>
+    <text class="host" x="491.2" y="452.7">saif@devmonk:~$</text>
+    <rect class="cursor" x="607" y="441.7" width="8" height="14"/>
   </g>
+  <text class="ts line-close" x="961.2" y="535" text-anchor="end">last updated 19 Jul 2026, 00:07 +06IST</text>
 </svg>
