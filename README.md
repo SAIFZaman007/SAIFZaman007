@@ -78,9 +78,9 @@ Welcome — I'm Saif, a full-stack developer working where cybersecurity, machin
 
 📫 **Let's connect** — reach out if you're building something that needs secure, intelligent systems.
 
-<!-- swap the # below for your real profile links -->
-[[LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/saifzaman)
-[[Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](zaman.maktech@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/saifzaman)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](zaman.maktech@gmail.com)
 
 *"Code — that protects, learns, and evolves."*
 

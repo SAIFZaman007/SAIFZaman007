@@ -20,7 +20,6 @@ from PIL import Image, ImageOps, ImageFilter
 
 RAMP: str = " .:-=+*#%@"
 
-
 @dataclass(frozen=True)
 class Theme:
     key: str
@@ -68,18 +67,7 @@ def load_portrait(path: Path, top: float, bottom: float, crop_ratio: float) -> I
 
 
 def image_to_levels(img: Image.Image, columns: int, char_aspect: float) -> List[List[int]]:
-    """Down-sample to a `columns`-wide grid of ints in [0, len(RAMP)-1].
 
-    `char_aspect` corrects for monospace character cells being roughly
-    twice as tall as wide -- without it, portraits come out stretched.
-
-    Contrast stretch + a mild unsharp pass before the LANCZOS downscale
-    matter more than the ramp length: portrait photos are usually
-    dominated by a bright, fairly flat background (skin/backdrop/shirt),
-    which -- left alone -- swallows the face into a single density band.
-    Punching up local contrast first spreads facial features across
-    more of the ramp instead of collapsing them into "mostly dense".
-    """
     gray = ImageOps.autocontrast(img.convert("L"), cutoff=2)
     gray = gray.filter(ImageFilter.UnsharpMask(radius=2, percent=100, threshold=2))
     w, h = gray.size
@@ -96,13 +84,7 @@ def image_to_levels(img: Image.Image, columns: int, char_aspect: float) -> List[
 
 
 def rows_for_theme(grid: List[List[int]], theme: Theme) -> List[str]:
-    """Render the shared brightness grid through a theme-specific ramp.
 
-    Dark theme = light ink on a dark canvas -> bright pixels need DENSE
-    characters. Light theme = dark ink on a light canvas -> bright
-    pixels need SPARSE characters -- a mirror-image mapping, so the
-    light ramp is just RAMP reversed. That's the entire "flip".
-    """
     ramp = RAMP if theme.key == "dark" else RAMP[::-1]
     return ["".join(ramp[v] for v in row) for row in grid]
 
@@ -368,7 +350,6 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(svg, encoding="utf-8")
     print(f"wrote {args.output}  ({args.columns}x{len(dark_rows)} grid, {len(svg):,} bytes)")
-
 
 if __name__ == "__main__":
     main()
