@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal-card.svg" alt="Terminal card: whoami returns Saif Zaman, AI-SaaS Engineer" width="100%" />
+<img src="assets/terminal-card.svg" alt="Terminal card: whoami returns Saif Zaman — AI-SaaS Engineer, Full-Stack, MLOps & Network Security" width="100%" />
 
 </div>
 
@@ -15,7 +15,7 @@ Welcome — I'm Saif, a full-stack developer working where cybersecurity, machin
 **Languages**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
@@ -35,9 +35,9 @@ Welcome — I'm Saif, a full-stack developer working where cybersecurity, machin
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-1C17FF?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-121142?style=for-the-badge)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 **ML Tools & Libraries**
@@ -62,7 +62,7 @@ Welcome — I'm Saif, a full-stack developer working where cybersecurity, machin
 
 **Security Tools & OS**
 
-![Suricata](https://img.shields.io/badge/Suricata-EF3B24?style=for-the-badge)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logo=suricata&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
