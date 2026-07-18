@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 934 504" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Animated terminal card: whoami returns Saif">
+  <title>saif@maktech:~$ whoami</title>
+  <style>
+    <![CDATA[
+      svg {
+        --bg: #0d1117; --panel: #161b22; --border: #30363d;
+        --text: #c9d1d9; --dim: #6e7681; --prompt: #3fb950; --accent: #00f7ff;
+      }
+      @media (prefers-color-scheme: light) {
+        svg {
+          --bg: #ffffff; --panel: #f6f8fa; --border: #d0d7de;
+          --text: #24292f; --dim: #57606a; --prompt: #1a7f37; --accent: #0969da;
+        }
+      }
+
+      .card-bg  { fill: var(--bg); stroke: var(--border); }
+      .chrome   { fill: var(--panel); }
+      .hairline { stroke: var(--border); stroke-width: 1; }
+      .tab      { fill: var(--dim); font: 12px ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .frame    { fill: none; stroke: var(--border); stroke-width: 1; }
+      .divider  { stroke: var(--border); stroke-width: 1; }
+
+      text {
+        font-family: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, 'Courier New', monospace;
+        white-space: pre;
+      }
+
+      .ascii       { font-size: 12px; fill: var(--text); }
+      .ascii-dark  { display: block; }
+      .ascii-light { display: none; }
+      @media (prefers-color-scheme: light) {
+        .ascii-dark  { display: none; }
+        .ascii-light { display: block; }
+      }
+
+      .host     { fill: var(--dim); font-size: 14px; }
+      .cmd      { fill: var(--accent); font-size: 14px; }
+      .out      { fill: var(--prompt); font-size: 18px; font-weight: 600; }
+      .kv-label { fill: var(--dim); font-size: 13px; }
+      .kv-value { fill: var(--text); font-size: 13px; }
+      .cursor   { fill: var(--accent); }
+
+      /* ---- animation: a single reveal pass on load, nothing loops
+             except the cursor -- see frontend-design note on restraint ---- */
+      .line-cmd {
+        clip-path: inset(0 100% 0 0);
+        animation: reveal-cmd 1.0s steps(22, end) 0.3s 1 forwards;
+      }
+      .art-group  { opacity: 0; animation: fade-in 1.0s ease-out 0.15s 1 forwards; }
+      .line-out   { opacity: 0; animation: fade-in 0.4s ease-out 1.5s 1 forwards; }
+      .info-block { opacity: 0; animation: fade-in 0.6s ease-out 2.0s 1 forwards; }
+      .line-close { opacity: 0; animation: fade-in 0.4s ease-out 2.7s 1 forwards; }
+      .cursor     { animation: blink 1s steps(1, end) 2.9s infinite; }
+
+      @keyframes reveal-cmd { to { clip-path: inset(0 0 0 0); } }
+      @keyframes fade-in    { to { opacity: 1; } }
+      @keyframes blink      { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .line-cmd, .art-group, .line-out, .info-block, .line-close {
+          animation: none !important; opacity: 1 !important; clip-path: inset(0 0 0 0) !important;
+        }
+        .cursor { animation: none !important; opacity: 1 !important; }
+      }
+    ]]>
+  </style>
+
+  <rect class="card-bg" x="0.5" y="0.5" width="933" height="503" rx="10"/>
+  <path class="chrome" d="M0.5,10.5 a9.5,9.5 0 0 1 9.5,-10 h914 a9.5,9.5 0 0 1 9.5,10 v30 h-933 z"/>
+  <line class="hairline" x1="0" y1="40" x2="934" y2="40"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+  <text class="tab" x="467" y="24" text-anchor="middle">saif@maktech:~$</text>
+
+  <rect class="frame" x="30.0" y="70.0" width="364.4" height="403.6" rx="6"/>
+  <g class="art-group">
+      <text x="42.0" y="94.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@@@%%***+***##%@@@@%%%%@%@@%@@@%%%%@%%%%%%%%%%</text>
+      <text x="42.0" y="108.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@%%@@#+**++**#@@@@@@%%%@@%@@@%%%%%%%%%%%%%%%%#</text>
+      <text x="42.0" y="123.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%@@#*#*++***@@@@@%%%%%%%@%%%%%%%%%%%#%%%%%%%</text>
+      <text x="42.0" y="137.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@%%@@#*##=*#**@@@@%%%%%%%@@@%%%%%%%%%%#%@%%#%@</text>
+      <text x="42.0" y="152.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">@%%@@#*##=+#**%@%%%@%%@@@@%###%@@@%%%%#%%%%%@@</text>
+      <text x="42.0" y="167.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%**#++###%@@@@@@%#+-:....:=%%%%%%%%%%%@@@</text>
+      <text x="42.0" y="181.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%*##++*##%@%%%%=:.         .%@%%%#%%@@@@@</text>
+      <text x="42.0" y="196.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%*##++#*#%@%@#    .-=---:   +@%%%%@@@@@@%</text>
+      <text x="42.0" y="210.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%#%@%**#*=#**%@@@:  .+#%@@@%%#=.#@%%%@@@@@%%%</text>
+      <text x="42.0" y="225.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%**##=#**%@@#  .*%#%%@%%%%%*:#%@@%@@@@%%#</text>
+      <text x="42.0" y="240.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%@%**#*+*##%@@# .+#+=-:+##*=++.%@@%%@%@@%%#</text>
+      <text x="42.0" y="254.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%#%@**#*=###%@@%.:##+---=%*..:-+@%%%@@@@%%##</text>
+      <text x="42.0" y="269.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%****+*##%@#*+=#%%%%#%@#++==%@%%@@@@%###%</text>
+      <text x="42.0" y="283.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%#*+*+***%@%*+**##%%#-+=#%%**%%@@%%%###%@</text>
+      <text x="42.0" y="298.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%*++*+***%@@%#***#=-=-:.-**+*@@@@%%%%#%@@</text>
+      <text x="42.0" y="313.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%*+=+*+*+%@@%%*+***##+=+=-=*@@@%%%%%##@@%</text>
+      <text x="42.0" y="327.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%#*==++*+#@%%%%===-*#*+**=#@%%%##%%%#%%%%</text>
+      <text x="42.0" y="342.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">%%%%%%#+++*+++%@@@@%*+=:. ...-%@%%%%%@@%%%@@%*</text>
+      <text x="42.0" y="356.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">#%%%%*==++*++=+***%****++=--=+#**#**########*+</text>
+      <text x="42.0" y="371.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">+=+***---====-:-+%@**#***++++=*+=---=====-==++</text>
+      <text x="42.0" y="386.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">=--:::---:=+*##%@@@@********+:#@+---==---===--</text>
+      <text x="42.0" y="400.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">::-=++*%%@@@@@@@%%@@%*******=-%@%%#*=-::-----=</text>
+      <text x="42.0" y="415.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">:.+@@@@@@@@@@%%@%%@##%******+#*%%%%@@%#*+-::-:</text>
+      <text x="42.0" y="429.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">:.%@%@%@@@@@%%%%%%%%%%#*####%%*%%%%%%@@@@@%=::</text>
+      <text x="42.0" y="444.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">=+@%%%%%%%%@%@@%%%@@@@@@##%%@%#%%%@%%@%%%%@#=+</text>
+      <text x="42.0" y="459.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-dark">.*@%%%%%%%%%%%@%@%@@@@@@%#%%#%%%%%%%%%%%%%%#+-</text>
+      <text x="42.0" y="94.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">   ..---=---::.    .... .  .   .... ..........</text>
+      <text x="42.0" y="108.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light"> ..  :=--==--:      ...  .   ................:</text>
+      <text x="42.0" y="123.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">...  :-:-==---     ....... ...........:.......</text>
+      <text x="42.0" y="137.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light"> ..  :-::+-:--    .......   ..........:. ..:. </text>
+      <text x="42.0" y="152.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light"> ..  :-::+=:--. ... ..    .:::.   ....:.....  </text>
+      <text x="42.0" y="167.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .--:==:::.      .:=*#%%%%#+...........   </text>
+      <text x="42.0" y="181.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .-::==-::. ....+#%@@@@@@@@@%. ...:..     </text>
+      <text x="42.0" y="196.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......-::==:-:. . :@@@@%*+***#@@@= ....      .</text>
+      <text x="42.0" y="210.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">..:. .--:-+:--.   #@@%=:.   ..:+%: ...     ...</text>
+      <text x="42.0" y="225.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .--::+:--.  :@@%-.:.. .....-#:.  .    ..:</text>
+      <text x="42.0" y="240.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">.... .--:-=-::.  :@%=:=+*#=::-+==%.  .. .  ..:</text>
+      <text x="42.0" y="254.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">...:. --:-+:::.  .%#::=***+.-%%#*= ...    ..::</text>
+      <text x="42.0" y="269.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......----=-::. :-=+:....:. :==++. ..    .:::.</text>
+      <text x="42.0" y="283.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......:-=-=---. .-=--::..:*=+:..--..  ...:::. </text>
+      <text x="42.0" y="298.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......-==-=---.  .:---:+*+*#%*--=-    ....:.  </text>
+      <text x="42.0" y="313.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......-=+=-=-=.  ..-=---::=+=+*+-   .....::  .</text>
+      <text x="42.0" y="327.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......:-++==-=: ....+++*-:-=--+: ...::...:....</text>
+      <text x="42.0" y="342.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">......:===-===.    .-=+#%@%%%*. .....  ...  .-</text>
+      <text x="42.0" y="356.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">:....-++==-==+=---.----==+**+=:--:--::::::::-=</text>
+      <text x="42.0" y="371.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">=+=---***++++*#*=. --:---====+-=+***+++++*++==</text>
+      <text x="42.0" y="386.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">+**###***#+=-::.    --------=#: =***++***+++**</text>
+      <text x="42.0" y="400.6" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">##*+==-..       ..  .-------+*. ..:-+*##*****+</text>
+      <text x="42.0" y="415.2" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">#%=          .. .. ::.------=:-....  .:-=*##*#</text>
+      <text x="42.0" y="429.8" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">#%. . .     ..........:-::::..-......     .+##</text>
+      <text x="42.0" y="444.4" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">+= ........ .  ...      ::.. .:... .. .... :+=</text>
+      <text x="42.0" y="459.0" textLength="340.4" lengthAdjust="spacingAndGlyphs" class="ascii ascii-light">%- ........... . .      .:..:..............:=*</text>
+  </g>
+
+  
+  <g class="line-cmd">
+    <text class="host" x="434.4" y="88.7">saif@maktech:~$</text>
+    <text class="cmd" x="542.4" y="88.7"> whoami</text>
+  </g>
+  <g class="line-out"><text class="out" x="434.4" y="124.7">&gt; Saif</text></g>
+  <line class="divider info-block" x1="434.4" y1="153.7" x2="904.4" y2="153.7"/>
+  
+  <text class="kv-label info-block" x="434.4" y="193.7">role</text>
+  <text class="kv-value info-block" x="526.4" y="193.7">AI-SaaS Team Lead @ Maktech</text>
+  
+  <text class="kv-label info-block" x="434.4" y="216.7">focus</text>
+  <text class="kv-value info-block" x="526.4" y="216.7">Security · ML · Full-Stack</text>
+  
+  <text class="kv-label info-block" x="434.4" y="239.7">based</text>
+  <text class="kv-value info-block" x="526.4" y="239.7">Dhaka, Bangladesh</text>
+  
+  <text class="kv-label info-block" x="434.4" y="262.7">uptime</text>
+  <text class="kv-value info-block" x="526.4" y="262.7">shipping since 2025</text>
+  
+  <text class="kv-label info-block" x="434.4" y="285.7">reach</text>
+  <text class="kv-value info-block" x="526.4" y="285.7">open to freelance &amp; collab</text>
+  
+  <g class="line-close">
+    <text class="host" x="434.4" y="327.7">saif@maktech:~$</text>
+    <rect class="cursor" x="550.4" y="316.7" width="8" height="14"/>
+  </g>
+</svg>
